@@ -16,7 +16,7 @@ const WatchList = () => {
 
   const fetchMovieDetails = async (imdbID) => {
     try {
-      const response = await axios.get(`https://www.omdbapi.com/?i=${imdbID}&apikey=${import.meta.env.VITE_API_KEY_OMDB}`);
+      const response = await axios.get(`https://www.omdbapi.com/?i=${imdbID}&apikey=${e6ed4380}`);
       return response.data;
     } catch (error) {
       console.error('Error fetching movie details:', error);
@@ -31,7 +31,7 @@ const WatchList = () => {
     }
     const fetchWatchlist = async () => {
       try {
-        const response = await axios.get(`${import.meta.env.VITE_API}${authuser._id}`);
+        const response = await axios.get(`${"https://moviehubbackend-b9d6.onrender.com/"}${authuser._id}`);
         const watchlist = response.data;
         setList(watchlist);
 
