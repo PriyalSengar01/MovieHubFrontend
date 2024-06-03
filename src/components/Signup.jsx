@@ -16,7 +16,7 @@ function SignUp() {
       password: data.password
     };
     
-    await axios.post(import.meta.env.VITE_API+"signup", userInfo)
+    await axios.post("https://moviehubbackend-b9d6.onrender.com/"+"signup", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
