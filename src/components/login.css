@@ -1,0 +1,94 @@
+.contain {
+    display: flex;
+    height: 103vh;
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+    background-color:#098E99;
+}
+
+.formWrapper {
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.123);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.closeButton {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-decoration: none;
+    color: #eee9e9;
+    font-size: 16px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 26px;
+    text-align: center;
+    color: white;
+}
+
+.inputGroup {
+    margin-bottom: 15px;
+}
+
+.label {
+    font-size: large;
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: large;
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+    font-style:italic;
+    margin-top: 5px;
+}
+
+.submitButton {
+    font-size: 20px;
+    width: 100%;
+    padding: 15px;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+    background-color: white;
+    color: black;
+}
+
+.loginPrompt {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 550;
+    text-align: center;
+    color: #000000;
+}
+
+.loginLink {
+    /* color: white; */
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+}

@@ -1,0 +1,94 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    align-items: center;
+    background-color: #098E99;
+    font-size: 30px;
+    color: white;
+
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+
+}
+
+.search {
+    width: 500px;
+    font-size: 20px;
+
+}
+
+.btn {
+    height: 50px;
+    width: 20%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+.load {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(42, 38, 38); */
+    background-image: url("https://png.pngtree.com/background/20231030/original/pngtree-3d-render-of-online-ticketing-for-movies-picture-image_5789190.jpg");
+    height: 740px;
+    width: 100%;
+    color: black;
+    font-size: 60px;
+    overflow-x: hidden;
+    
+
+}
+
+.viewbtn {
+
+    background-color: #098E99;
+    border: 1px;
+    border: 1px;
+    color: white;
+    height: 30px;
+    width: 60px;
+    margin-top: 5px;
+
+}
+
+.button {
+
+
+    border: 1px;
+    border: 1px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.register {
+    padding: 20px;
+
+
+
+}
+
+.normal {
+    
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px;
+    padding: 2px;
+    display:block;
+    margin:auto;
+    background-color: #098E99;
+}
