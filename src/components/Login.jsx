@@ -16,7 +16,7 @@ function Login() {
       password: data.password
     };
     console.log(import.meta.env.VITE_API+"login");
-    await axios.post(import.meta.env.VITE_API+"login", userInfo)
+    await axios.post("https://moviehubbackend-b9d6.onrender.com/"+"login", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
