@@ -32,9 +32,9 @@ useEffect(() => {
 const[results,setResults]=useState([]);
 const searchMovie=async ()=>{
     console.log(import.meta.env.VITE_API_KEY_OMDB);
-    setmsg(()=>`Loading result for ${search}...`)
+    setmsg(()=>`Loading result for ${search}🍿🍿🍿`)
     if(search==""){
-      setmsg(()=>`Enter a movie name`)
+      setmsg(()=>`Enter a movie name🎥🎥`)
       return}
     let data=await fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=${import.meta.env.VITE_API_KEY_OMDB}&s=${search}`);
     data=await data.json();
@@ -63,7 +63,7 @@ const searchMovie=async ()=>{
    
    
    </div>
-   {authuser? <div className='register'><button style={{backgroundColor:"#098E99"}} className="button" onClick={handleLogout} >Logout</button>
+   {authuser? <div className='register'><button style={{backgroundColor:"#A654F9"}} className="button" onClick={handleLogout} >Logout</button>
    <Link   className="button"to="/watchList" >WatchList</Link>
    </div>:<div className='register'><Link className="button" to="/signup" >SignUp</Link>
    <Link   className="button"to="/login" >Login</Link>
