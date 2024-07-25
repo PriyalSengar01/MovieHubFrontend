@@ -57,6 +57,7 @@ const WatchList = () => {
     <div>
       <navbar className="navbar">
     <div>MovieHub &#127909;</div>
+    
     <div>WatchList</div>
     <div><Link to="/" className='normal'>Home</Link></div>
    
