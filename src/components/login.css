@@ -4,13 +4,13 @@
     margin-top: -10px;
     justify-content: center;
     align-items: center;
-    background-color:#098E99;
+    background-color:#6D9AC4;
 }
 
 .formWrapper {
-    width: 400px;
+    width: 450px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.123);
+    background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -29,7 +29,7 @@
     margin-bottom: 20px;
     font-size: 26px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .inputGroup {
@@ -40,7 +40,7 @@
     font-size: large;
     display: block;
     margin-bottom: 5px;
-    color: white;
+    color: black;
 }
 
 .input {
@@ -48,7 +48,7 @@
     width: 100%;
     padding: 10px;
     border-radius: 7px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     outline: none;
     font-size: large;
 }
@@ -74,7 +74,7 @@
 }
 
 .submitButton:hover {
-    background-color: white;
+    background-color: yellow;
     color: black;
 }
 
@@ -88,7 +88,7 @@
 
 .loginLink {
     /* color: white; */
-    color:white;
+    color:black;
     cursor: pointer;
     text-decoration: none;
 }
