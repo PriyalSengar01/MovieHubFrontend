@@ -67,7 +67,7 @@ const Card = ({img,title,year,id,add,set,curr}) => {
       <p style={{textAlign:"center"}}>{year}</p> 
       <br></br>
       {authuser && !add && <button style={{}} className='normal' onClick={()=>addToWatchlist(id)}>Add to WatchList</button>}
-      {add&& <button style={{backgroundColor:"#098E99",textAlign:"center"}} className='normal' onClick={()=>removeWatchlist(id,set,curr)}>Remove</button> }
+      {add&& <button style={{backgroundColor:"#A654F9",textAlign:"center"}} className='normal' onClick={()=>removeWatchlist(id,set,curr)}>Remove</button> }
       
     </div>
   </div>
